@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(199, 199, 199);
+}
+#barra{
+    background-color: beige;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+#foto1, #foto2, #foto3, #foto4{
+    background-color: white;
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+img {
+   width: 100%;
+}
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.titulo .numero{
+    color: grey;
+}
+.descripcion p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
